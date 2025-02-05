@@ -51,10 +51,43 @@ Untuk kembali ke screen:
 screen -r Silent-Protocol
 ```
 
+## ⚙️ Instalasi di CMD Windows
+
+### 1️⃣ Install Python dan Git
+Unduh dan instal:
+- [Python](https://www.python.org/downloads/)
+- [Git](https://git-scm.com/downloads)
+
+Pastikan Python dan pip telah ditambahkan ke `PATH`.
+
+### 2️⃣ Clone Repository
+Buka CMD dan jalankan:
+```cmd
+git clone https://github.com/isorganic/Silent-Protocol.git
+cd Silent-Protocol
+```
+
+### 3️⃣ Install Dependencies
+```cmd
+pip install requests
+```
+
+### 4️⃣ Tambahkan Token
+Buka file `tokens.txt` dengan Notepad atau editor teks lainnya, lalu masukkan token satu per baris.
+
+### 5️⃣ Jalankan Skrip
+```cmd
+python automation.py
+```
+Jika menggunakan Python 3:
+```cmd
+python3 automation.py
+```
+
 ## 📌 Catatan
 - Pastikan token telah dimasukkan dengan benar ke dalam `tokens.txt`
 - Jika ada error `ModuleNotFoundError: No module named 'requests'`, jalankan:
-  ```bash
+  ```cmd
   pip install requests
   ```
 
