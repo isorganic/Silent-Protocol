@@ -1,0 +1,1 @@
+isi token nya dari autorize (barrier)
